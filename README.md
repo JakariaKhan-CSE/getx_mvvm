@@ -1,5 +1,28 @@
 # getx_mvvm
 
+Flutter Widget Snippets (add this extension) for suggest whole code type stl (auto generate stateless class)
+
+Explanation
+Model (CounterModel):
+
+Represents the data layer, encapsulating the counter value.
+ViewModel (CounterViewModel):
+
+Acts as the bridge between the model and the view. Handles logic like incrementing and resetting the counter, and notifies the UI using update().
+View (CounterView):
+
+Represents the UI layer. It listens to the CounterViewModel for changes using GetBuilder and reacts accordingly.
+
+# Useful Extension for Flutter in VSCode
+https://youtu.be/nNpecoYRV-o?si=kaoZkc1Bfk64ZpA2
+
+Pubspec Assit
+VSCode-icons
+Better Comments
+GetX Snippets
+Error Lens
+
+
 A new Flutter project.
 
 ## Getting Started
